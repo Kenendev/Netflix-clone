@@ -33,7 +33,6 @@ const signup = async (name, email, password) => {
       name,
       authProvider: "local",
       email,
-      password,
     });
   } catch (error) {
     console.log(error);

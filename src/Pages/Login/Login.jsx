@@ -33,6 +33,7 @@ const user_auth = async (event) => {
       <img src={logo} className="login-logo" alt="" />
       <div className="login-form">
         <h1>{signState}</h1>
+        
         <form>
           {signState==="Sign Up"?
           <input value={name} onChange={(e)=>{setName(e.target.value);}} 
